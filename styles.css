@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FFB7A1;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    min-height: 1rem;
+}
+
+.btn{
+    cursor: pointer !important;
+}
+
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    color: white;
+    text-decoration: none;
+}
+
+.brand-logo-name {
+    margin-left: 1rem;
+}
+
+.main nav>ul li {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main-nav a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover {
+    color: #ff8dec;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+.container {
+    max-width: 1400px;
+    height: 2000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    min-height: 1600px;
+}
+
+.container1 {
+    max-width: 1200px;
+    height: 1080px;
+    margin: 40px;
+    padding: 0 40px;
+    min-height: 90vh;
+}
+
+.bottom_content {
+    max-width: 1920px;
+    margin: 40px;
+    padding: 0px;
+    min-height: 90vh;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.subtitle {
+    font: weight 500px;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    color: black;
+    background-color: white;
+    padding: .75rem 10rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+@media (max-width: 500px){
+    .call-to-action{
+        font-size: 16px !improtant;
+        padding: 0 10px !important;
+    }
+    .home-main-section{
+         padding: 0 10px !important;
+    }
+    
+    .title{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .subtitle{
+        font-size: 16px;
+        text-align: center;
+    }
+}
